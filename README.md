@@ -35,10 +35,17 @@ These same results than ran at the terminal are the same results projected in th
 Now that you´ve seen the results in both "locations" lets go to specific details of the results:
 
 - How many votes were cast in this congressional election?
+
 **369,711** Votes 
+
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
+**Jefferson**: 38,855
+**Denver**:    306,055
+**Arapahoe**:  24,801
+
 - Which county had the largest number of votes?
+
 **Denver** was de county with the largest number of votes.
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
@@ -54,4 +61,20 @@ The winner was **Diana DeGette** with **272,892** votes and with a **73.8%** of 
 
 ## Election-Audit Summary: 
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+As we´ve seen, this code works perfectly for our election audit, nevertheless could this same script work for any other elections? 
+There might be several changes to be done in order to execute our program for any other election application, rather exposing all of those changes, we are presenting 2 modifications that might be helpful in the future to the board.
+
+1. Load the proper file to the code.
+
+First of all, and most importantly, we neeed to ask ourselves, what is the file that we are going to work to, so the proposal is to add an input to ask the user for the name of the file before the "*file_to_load = os.path.join("Resources", "election_results.csv")*" 
+
+<img width="484" alt="Summary1" src="https://user-images.githubusercontent.com/84519822/149576751-4d0b0d30-db42-4ec5-9300-134688eba782.png">
+
+
+So the code might be: *file = input("Write the name of the file to be analyze: ")* after this the "*file*" variable is the one to insert to the "*file_to_load*" to replace in this case "*election_results.csv*"
+
+2. Select the name of the text file where the board wants to see the results
+
+So we don´t re-write in the same file over and over thye idea here is the same as in point one, which is to ask the user with an *input()* to insert the name they want for the analysis. The folder where this file will be save willl remain the sameone (*analysis*).
+
+
