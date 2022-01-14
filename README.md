@@ -24,13 +24,33 @@ Now the board wants us to provide them with 3 outputs more:
 
 ## Election-Audit Results: 
 
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+The purpose of our code was to expose the results in the terminal and in a text file named *election_analysis.txt* so the following image is the output of our code in the terminal:
+
+<img width="280" alt="Terminal" src="https://user-images.githubusercontent.com/84519822/149559507-9884f4c1-5d78-4f6b-b690-f6cc58b9871b.png">
+
+These same results than ran at the terminal are the same results projected in the text file, so lets take a look at the results in the .txt:
+
+<img width="345" alt="Text_File" src="https://user-images.githubusercontent.com/84519822/149559671-63000bbc-2c6b-44da-a406-6eb0374ba7ca.png">
+
+Now that you´ve seen the results in both "locations" lets go to specific details of the results:
 
 - How many votes were cast in this congressional election?
+**369,711** Votes 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
 - Which county had the largest number of votes?
+**Denver** was de county with the largest number of votes.
+
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+**Total of Votes: 369,711**
+*Charles Casper Stockham:* 85,213
+*Diana DeGette:*           272,892
+*Raymon Anthony Doane:*    11,606
+
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+The winner was **Diana DeGette** with **272,892** votes and with a **73.8%** of the total votes.
 
 ## Election-Audit Summary: 
 
